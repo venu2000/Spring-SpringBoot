@@ -1,0 +1,75 @@
+package com.flm.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.flm.Repository.StudentRepository;
+import com.flm.model.Student;
+
+@Service
+public class StudentService {
+	
+	@Autowired
+	StudentRepository studentRepository;
+	
+	public String saveStd() {
+		Student std = new Student("Aruna", 90);
+		studentRepository.save(std);
+		return std.getName();
+		
+	}
+
+	public Student getStudent() {
+		Optional<Student> studentOptional = studentRepository.findById(6);
+		Student student = studentOptional.get();
+		return student;
+	}
+	
+	
+	public List<Student> allStudents(){
+		
+		List<Student> allstudents = studentRepository.findAll();
+		return allstudents;
+		
+		
+	}
+	
+	
+	
+	public Student delete(int id) {
+		
+		Student student = studentRepository.findById(id).get();
+		studentRepository.delete(student);
+		return student;
+		
+	}
+	
+	
+	public Student updateStudent(int id) {
+		Optional<Student> studentOptional = studentRepository.findById(id);
+		Student student = studentOptional.get();
+		student.setName("Aruna Kumari");
+		return studentRepository.save(student);
+	}
+	
+	/*
+	 * // JPQL STARTS HERE
+	 */	
+
+	
+//	public Student getStudentBasedOnId(int id) {
+//		Student studentById = studentRepository.getStudentById(id);
+//		return studentById;
+//	}
+	
+	
+	
+	public Student getStudentBasedOnId(@RequestParam(name="id") int id) {
+		return = studentRepository.getStudentById(id);
+		
+	}
+}

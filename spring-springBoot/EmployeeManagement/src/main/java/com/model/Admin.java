@@ -1,0 +1,89 @@
+package com.model;
+
+import java.util.Objects;
+
+public class Admin {
+	
+	
+	private int adminId;
+	private String username;
+	private String password;
+	
+
+	public Admin() {
+	
+	}
+
+
+	public Admin(int adminId, String username, String password) {
+		super();
+		this.adminId = adminId;
+		this.username = username;
+		this.password = password;
+	}
+
+
+
+	public Admin(String username, String password) {
+
+		this.username = username;
+		this.password = password;
+	}
+
+	public int getAdminId() {
+		return adminId;
+	}
+
+	public void setAdminId(int adminId) {
+		this.adminId = adminId;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(adminId, password, username);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Admin other = (Admin) obj;
+		return adminId == other.adminId && Objects.equals(password, other.password)
+				&& Objects.equals(username, other.username);
+	}
+
+	@Override
+	public String toString() {
+		return "Admin [adminId=" + adminId + ", username=" + username + ", password=" + password + "]";
+	}
+	
+	
+	
+
+	
+	
+	
+
+}

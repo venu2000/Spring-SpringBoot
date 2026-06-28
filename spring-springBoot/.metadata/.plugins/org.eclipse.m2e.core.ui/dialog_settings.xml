@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\workspace-sts\spring-springBoot\SpringBootJDBC_Day12"/>
+			<item value="C:\Users\ASUS\Downloads\SpringBootJDBC_Day12"/>
+			<item value="C:\Users\ASUS\Downloads\SpringMVCXML"/>
+			<item value="C:\workspace-sts\spring-springBoot\SpringContext"/>
+			<item value="C:\Users\ASUS\Downloads\SpringContext"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\workspace-sts\spring-springBoot\SpringMVCXMLDay7_8\src\main\java\com\controller\UserController.java"/>
+			<item value="C:\Users\ASUS\Downloads\SpringMVCXML\SpringMVCXML\src\main\webapp\WEB-INF\web.xml"/>
+			<item value="C:\workspace-sts\spring-springBoot\SpringContect2Day4\src\main\java\com\Application.java"/>
+			<item value="C:\workspace-sts\spring-springBoot\SpringContextDay3NoXML\src\main\java\com\utility\Application.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com"/>
+			<item value="com.SpringMVCNoXML_Day10"/>
+			<item value="com.SpringMVCNoXML"/>
+			<item value="com.SpringMVCXMLDay7_8"/>
+			<item value="com.SpringMVCXML_Day7and8"/>
+			<item value="com.SpringMVCXML"/>
+		</list>
+		<list key="groupId">
+			<item value="com"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringMVCNoXML_Day10"/>
+			<item value="SpringMVCNoXML"/>
+			<item value="SpringMVCXMLDay7_8"/>
+			<item value="SpringMVCXML_Day7and8"/>
+			<item value="SpringMVCXML"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="EmployeeManagement"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="EmployeeManagement"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

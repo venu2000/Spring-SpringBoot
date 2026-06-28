@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.model.User"  id="user">
+    <property name="userId" value = "10"></property>
+    <property name="name" value = "Venu"></property>
+
+</bean>
+
+
+
+    <bean class="com.model.User"  id="user2">
+    <constructor-arg name="userId" value = "20"></constructor-arg>
+    <constructor-arg name="name" value = "Gopal"></constructor-arg>
+    
+    </bean>
+    
+    
+    
+    <bean class ="com.model.User" id="user3">
+       <property name="userId" value = "1526"></property>
+     <property name="name"  value="Alapati"></property>
+     <property name="skills">
+    <list>
+    
+    <value>Java</value>
+    <value>SQL</value>
+    <value>JDBC</value>
+    <value>Hibernate</value>
+    </list>
+    </property>
+    <property name="hobbies">
+     <map>
+     
+     <entry key="Hobby1" value="Drawing"></entry>
+     <entry key="Hobby2" value="Gym"></entry>
+     <entry key="Hobby3" value="watching"></entry>
+     <entry key="Hobby3" value="watching Movies"></entry>
+     
+     </map>
+     </property>
+    </bean>
+    
+     <bean class ="com.model.User" id="user4">
+       <property name="userId" value = "1526"></property>
+     <property name="name"  value="Naveena"></property>
+     <property name="hobbies">
+     <map>
+     
+     <entry key="Hobby1" value="Drawing"></entry>
+     <entry key="Hobby2" value="Gym"></entry>
+     <entry key="Hobby3" value="watching"></entry>
+     <entry key="Hobby3" value="watching Movies"></entry>
+     
+     
+     
+     </map>
+    </property>
+    </bean>
+
+    <bean class="com.model.User2" id = "user21" autowire ="byType">
+    <property name = "userId" value="1000"></property>
+     <property name = "name" value="VenuGopal"></property>
+     
+  <!--    <property name = "address" ref ="address"></property> -->
+     
+
+</bean>
+
+    <bean class="com.model.Address" id = "address">
+    <property name = "street" value="gangannamapeta"></property>
+     <property name = "zipcode" value="522201"></property>
+
+</bean>
+
+ 
+
+
+
+
+</beans>

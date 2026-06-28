@@ -1,0 +1,59 @@
+package com.flm.Controller;
+
+import com.flm.Repository.StudentRepository;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.flm.Service.StudentService;
+import com.flm.model.Student;
+
+@RestController
+public class StudentController {
+	
+	
+	@Autowired
+	StudentService studentService;
+
+	
+	
+	@GetMapping("/save")
+	public String save() {
+		
+		String name = studentService.saveStd();
+		return name;
+		
+	}
+	
+	@GetMapping("/studentById")
+	public Student getStudentById() {
+		 
+		return studentService.getStudent();
+	
+	}
+
+	@GetMapping("/allstudents")
+	public List<Student> getAllStudents(){
+		
+		return studentService.allStudents();
+		
+	}
+	
+	@GetMapping("/delete")
+	public Student deleteStudent() {
+		
+		return studentService.delete(2);
+		
+		
+	}
+	
+	public Student updateStudent() {
+		return studentService.updateStudent(9);
+	}
+	
+	
+	
+	
+}
