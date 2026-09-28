@@ -40,11 +40,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring-form.tld" project="SpringBootProjectFirst"/>
+      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring-form.tld" project="SpringBootJPA_Day_13"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring.tld" project="SpringBootProjectFirst"/>
+      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring.tld" project="SpringBootJPA_Day_13"/>
     </library>
    </libraries>
   </path>

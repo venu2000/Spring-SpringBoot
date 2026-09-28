@@ -20,11 +20,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring-form.tld" project="SpringBootProjectFirst"/>
+      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring-form.tld" project="SpringBootJPA_Day_13"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring.tld" project="SpringBootProjectFirst"/>
+      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring.tld" project="SpringBootJPA_Day_13"/>
     </library>
    </libraries>
   </path>
@@ -37,13 +37,13 @@
   <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/websocket-client-api.jar"/>
   <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/tomcat-api.jar"/>
   <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/tomcat-i18n-es.jar"/>
-  <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/tomcat-i18n-ja.jar"/>
   <path value="C:/Users/ASUS/.m2/repository/org/springframework/spring-context/7.0.8/spring-context-7.0.8.jar"/>
-  <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/catalina-tribes.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/tomcat-i18n-ja.jar"/>
   <path value="C:/Users/ASUS/.m2/repository/org/springframework/spring-web/7.0.8/spring-web-7.0.8.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/ASUS/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar"/>
   <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/annotations-api.jar"/>
   <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/tomcat-i18n-de.jar"/>
-  <path value="C:/Users/ASUS/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar"/>
   <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/tomcat-i18n-ru.jar"/>
   <path value="C:/Program Files/Apache Software Foundation/Tomcat 10.1/lib/tomcat-i18n-zh-CN.jar"/>
   <path value="C:/Users/ASUS/.m2/repository/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.jar"/>
@@ -63,17 +63,14 @@
   <path value="C:/Users/ASUS/.m2/repository/org/springframework/spring-beans/7.0.8/spring-beans-7.0.8.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el>
    <linked-el length="7" name="%0" offset="208" path="%1"/>
-   <linked-el length="7" name="%0" offset="208" path="%2"/>
   </el>
  </validation>
  <aliases>
   <alias path="name" value="%0"/>
   <alias
    path="/SpringMVCNoXML_Day10/src/main/webapp/WEB-INF/views/user.jsp" value="%1"/>
-  <alias path="/SpringMVCNoXML_Day10/src/main/webapp/user.jsp" value="%2"/>
  </aliases>
  <includes/>
  <uris/>

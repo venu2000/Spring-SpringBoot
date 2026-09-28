@@ -40,11 +40,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring-form.tld" project="SpringBootJPA_Day_14"/>
+      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring-form.tld" project="SpringBootJPA_Day_13"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring.tld" project="SpringBootJPA_Day_14"/>
+      path="FileSystems/lib-spring-webmvc-7.0.8.jar/meta-inf/spring.tld" project="SpringBootJPA_Day_13"/>
     </library>
    </libraries>
   </path>
@@ -129,7 +129,6 @@
   <path value="C:/Users/ASUS/.m2/repository/org/springframework/boot/spring-boot-starter-webmvc-test/4.1.0/spring-boot-starter-webmvc-test-4.1.0.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el/>
  </validation>
  <aliases/>
