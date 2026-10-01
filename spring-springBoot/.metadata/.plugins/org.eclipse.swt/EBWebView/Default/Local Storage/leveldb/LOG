@@ -1,3 +1,2 @@
-2026/06/26-01:29:38.630 5e08 Reusing MANIFEST C:\workspace-sts\spring-springBoot\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2026/06/26-01:29:38.644 5e08 Recovering log #3
-2026/06/26-01:29:38.646 5e08 Reusing old log C:\workspace-sts\spring-springBoot\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 
+2026/06/29-18:32:15.432 7d18 Creating DB C:\Workspace-Spring&SpringBoot\Spring-SpringBoot\spring-springBoot\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb since it was missing.
+2026/06/29-18:32:15.662 7d18 Reusing MANIFEST C:\Workspace-Spring&SpringBoot\Spring-SpringBoot\spring-springBoot\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001

@@ -35,6 +35,10 @@ public class OrderServiceImpl implements OrderService {
 	
 	public OrderResponseDTO placeOrder (PlaceOrderRequestDTO orderRequestDTO) {
 		
+		double finalOrderPrice = 0;
+		List<OrderItems> orderItemList = new ArrayList<OrderItems>();
+		Order order = new Order();	
+		
 		// converting input list to Item by Item
 		List<OrderItemRequestDTO> orderItemRequestList = orderRequestDTO.getOrderItemRequestList();
 		

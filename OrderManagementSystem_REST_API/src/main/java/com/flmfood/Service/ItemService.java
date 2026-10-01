@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.flmfood.Dto.AddItemRequestDTO;
 import com.flmfood.Dto.ItemResponseDTO;
 import com.flmfood.Dto.UpdateItemDto;
+import com.flmfood.Dto.UpdateRating;
 
 public interface ItemService {
 	
@@ -23,5 +24,7 @@ public interface ItemService {
 	public String deleteItemById(int id);
 	
 	public ItemResponseDTO updateItem(int id, UpdateItemDto updateItemDto);
+
+	public ItemResponseDTO updateRating(UpdateRating updateRating);
 }
 

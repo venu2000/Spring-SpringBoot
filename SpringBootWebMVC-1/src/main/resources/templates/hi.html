@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to My Project</title>
+</head>
+<body>
+
+<h1>Hey ! whats up.....</h1>
+
+<form th:action="@{/login}" method  ="post">
+   
+    Email : <input type = "text" name="email" ><br>
+    Password : <input type = "text" name = "password"><br>
+    
+    <input type = "submit" value="Login">
+    
+
+</form>
+
+
+
+<form th:action="@{/loginModel}" method  ="post" th:object="${user}">
+
+   
+    Email : <input type = "text" th:field="*{email}" ><br>
+    Password : <input type = "text" th:field = "*{password}"><br>
+    
+    <input type = "submit" value="Login">
+    
+
+</form>
+
+</body>
+</html>
